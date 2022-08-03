@@ -1,40 +1,69 @@
 package Day_19_Methods;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Topic5_MethodExamples2 {
 
-    /**
-     * write a method that has 3 input parameters
-     * Find the max number between those 3 numbers
-     */
-
-    public static void myFunc(int a, int b, int c) {
+    // Write a method that has 3 input parameters and finds the max number between those 3 numbers
+    public static void Myfunc(int a, int b, int c) {
         int max = 0;
         if (a > b && a > c) {
             max = a;
         } else if (b > a && b > c) {
             max = b;
-        } else{
+
+        } else {
             max = c;
-         }
-        System.out.println("max = " + max);
+        }
+        System.out.println("The Max number is: " + max);
+
     }
 
-    private static void cMyFunc() {
+    public static void CMyFunc() {
+        Scanner scan = new Scanner(System.in);
 
-        myFunc(18, 29, 0);
+        System.out.println("Enter a name: ");
+        String name = scan.next();
 
+        System.out.println("the name you enter is: " + name);
+
+    }
+
+    // print the name multiple times using for loop;
+    public static void PrintName(String name) {
+
+        System.out.println("name is : " + name);
+
+    }
+
+    public static void Printname1(int times) {
+
+        for (int i = 0; i < times; i++) {
+
+            System.out.println("The name is : Ziya");
+        }
     }
 
     public static void main(String[] args) {
 
-        cMyFunc();
+        CMyFunc();
+
+        Myfunc(8, 90, 9);
+
+        for (int i = 0; i < 10; i++) {
+            PrintName("Sarp");
+        }
+
+        Printname1(4);
+
 
     }
-
-
-
 }
+
+
+
+
+
 
 

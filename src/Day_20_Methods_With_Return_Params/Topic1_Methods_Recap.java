@@ -1,30 +1,21 @@
-package Day_19_Methods;
+package Day_20_Methods_With_Return_Params;
 
-public class Topic3_Methods {
+public class Topic1_Methods_Recap {
 
-    public static void main(String[] args) {
+    //decleration of the method
+    // public               static           void               main        (String [] args){
+    // Access-modifer       specifier        return-type        methodName  (paramater)
+    //statments ,code
+    //}
+    // you have to have the return type, name, (), {}
 
-        // METHODS ARE FOR CODE RE-USABILITY
+    //Access-Modifer =public, protected ,default ,private
+    //specifier   : static ,final ,abstract ,synchronized
+    //return type : void , any datatype(int,string,char , int [] .......)
+    //some method has paramertes some dont have parameter
 
-
-        // methods are code blocks which only run when they are called
-
-        // they are also called 'function'
-
-        //decleration of the method
-        // public               static           void               main        (String [] args){
-        // Access-modifer       specifier        return-type        methodName  (paramater)
-        //statments ,code
-        //}
-        // you have to have the return type, name, (), {}
-
-        //Access-Modifer =public, protected ,default ,private
-        //specifier   : static ,final ,abstract ,synchronized
-        //return type : void , any datatype(int,string,char , int [] .......)
-        //some method has paramertes some dont have parameter
-
-        //create a method that will print java 10 times
-        //
+    //create a method that will print java 10 times
+    //
  /*
 public == >: The public access modifier is specified using the keyword public.
 They are accessible from everywhere in the program. There is no restriction on the scope of public data members.
@@ -45,7 +36,7 @@ Any other class of the same package will not be able to access these members.
 The methods which are not declared using any access modifiers, They have default access modifiers, which means only accessible within the same package.
 */
 
-
+    public static void main(String[] args) {
 
     }
 }
