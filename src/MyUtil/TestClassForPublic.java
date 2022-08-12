@@ -13,7 +13,10 @@ public class TestClassForPublic {
         return sum;
     }
 
-    protected static void PMethod (){
-        System.out.println("This is private method");
+    public static void breakLines (){
+
+        System.out.println("---------------------------------");
+
+
     }
 }

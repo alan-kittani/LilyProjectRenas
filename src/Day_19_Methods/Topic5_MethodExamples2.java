@@ -7,6 +7,7 @@ public class Topic5_MethodExamples2 {
 
     // Write a method that has 3 input parameters and finds the max number between those 3 numbers
     public static void Myfunc(int a, int b, int c) {
+
         int max = 0;
         if (a > b && a > c) {
             max = a;
@@ -46,6 +47,8 @@ public class Topic5_MethodExamples2 {
     }
 
     public static void main(String[] args) {
+
+        int alan = 1;
 
         CMyFunc();
 

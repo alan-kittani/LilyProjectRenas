@@ -20,29 +20,20 @@ public class Day_12_Homework4_sumsContinued {
 
         int oddSum = 0;
 
-        for (int i = 0; i <= userInt; i++) {
+        for (int i = 1; i <= userInt; i += 2) {
+
+
+            if (i == 9 || i == 11 || i == 23 || i == 35) {
+                continue;
+            }
+            oddSum += i;
+
+
 
 
 
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println("oddSum = " + oddSum);
 
 
     }
