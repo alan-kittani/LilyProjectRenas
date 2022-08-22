@@ -1,0 +1,13 @@
+package Day_0_Alan_FreeCoding;
+
+public class CONSTRUCTORSSSS {
+
+/**
+ *
+ *  THINK OF IT LIKE CONSTRUCTING A VARIABLE
+ *  YOU PASS THE VALUES TOGETHER USING THE INSTANCE INSTEAD OF SETTING THEM IN MAIN ONE BY ONE
+ *
+ *
+ *      DATA is VARIABLES btw just a note
+ */
+}
